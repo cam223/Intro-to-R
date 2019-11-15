@@ -144,6 +144,7 @@ head(Yellow_Tripdata_2017_06[4:5])
 summary(Yellow_Tripdata_2017_06)
 summary(Yellow_Tripdata_2017_06 $ trip_distance)
 #
+
 # Throwing out "non-fares"
 Yellow_Tripdata_2017_06 <- Yellow_Tripdata_2017_06[which(
   Yellow_Tripdata_2017_06$fare_amount>=0 & 
